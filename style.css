@@ -1,0 +1,33 @@
+
+.card{
+    max-width: 700px;
+}
+.footer{
+    background-color: white;
+}
+
+.choose input[type="checkbox"]:checked + label{
+    color: #0075ff;
+}
+.spans{
+    flex: 1;
+    display: flex;
+}
+.spans span{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.spans span.on{
+    background-color: #0075ff;
+}
+.spans span.sucess{
+    background-color: #009688;
+}
+.spans span.few{
+    background-color: #ffd400;
+}
+.spans span.bed{
+    background-color: #dc0a0a;
+}
