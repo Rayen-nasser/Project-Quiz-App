@@ -121,7 +121,7 @@ function showResult(count) {
   }
 }
 
-fetch(`./${file}.json`)
+fetch(`../data/${file}.json`)
   .then((data) => {
     if (data.ok) {
       return data.json();
